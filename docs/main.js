@@ -1177,6 +1177,11 @@ class ContactComponent {
     this.analyticsService = analyticsService;
   }
   ngOnInit() {}
+  openGmail() {
+    const recipient = 'nithish.kr.ece@gmail.com';
+    const mailtoURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}`;
+    window.open(mailtoURL, '_blank');
+  }
   static #_ = this.ɵfac = function ContactComponent_Factory(t) {
     return new (t || ContactComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_analytics_analytics_service__WEBPACK_IMPORTED_MODULE_0__.AnalyticsService));
   };
@@ -1185,7 +1190,7 @@ class ContactComponent {
     selectors: [["app-contact"]],
     decls: 18,
     vars: 12,
-    consts: [["id", "contact", 1, "section"], [1, "container", "contact"], [1, "section-box"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mb-4"], [1, "contact-pre-title", "big-subtitle"], [1, "e-font", "contact-title", "big-title"], ["data-aos", "fade-up", "data-aos-duration", "1000"], [1, "mt-5"], ["href", "mailto:andresjosehr@gmail.com", "target", "_blank", "data-aos", "fade-up", "data-aos-duration", "1000", 1, "main-btn", 3, "click"]],
+    consts: [["id", "contact", 1, "section"], [1, "container", "contact"], [1, "section-box"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "mb-4"], [1, "contact-pre-title", "big-subtitle"], [1, "e-font", "contact-title", "big-title"], ["data-aos", "fade-up", "data-aos-duration", "1000"], [1, "mt-5"], ["href", "mailto:nithish.kr.ece@gmail.com", "data-aos", "fade-up", "data-aos-duration", "1000", 1, "main-btn", 3, "click"]],
     template: function ContactComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h3", 4);
@@ -1202,7 +1207,7 @@ class ContactComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "div", 7)(15, "a", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ContactComponent_Template_a_click_15_listener() {
-          return ctx.analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email");
+          return ctx.openGmail();
         });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](17, "translate");
