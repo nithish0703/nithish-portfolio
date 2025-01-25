@@ -1,6 +1,7 @@
 {
   "name": "nithish-portfolio",
   "version": "0.0.0",
+  "homepage":"https://nithish0703.github.io/nithish-portfolio/en",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

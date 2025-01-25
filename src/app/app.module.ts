@@ -52,7 +52,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     }),
     NgbModule,
   ],
-  providers: [TranslateService],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  // providers: [TranslateService],
   // { provide: LocationStrategy, useClass: HashLocationStrategy }
   bootstrap: [AppComponent],
 })
