@@ -38,4 +38,5 @@ export class FooterComponent implements OnInit {
     window.open(mailtoURL, '_blank');
 
   }
+  
 }
