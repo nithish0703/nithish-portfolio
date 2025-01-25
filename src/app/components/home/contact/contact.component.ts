@@ -15,4 +15,12 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openGmail() {
+
+    const recipient = 'nithish.kr.ece@gmail.com'; 
+    const mailtoURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}`;
+    window.open(mailtoURL, '_blank');
+
+  }
+
 }
