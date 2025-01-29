@@ -1,0 +1,78 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Nithish_CV_Updated.pdf",
+  "Banner.Pretitle": "Hello! I am",
+  "Banner.Description": "I have <span class='underline'>3.3 years of experience</span> in developing dynamic, responsive, and user-friendly web applications. My expertise lies in creating efficient systems, intuitive user interfaces, and innovative solutions to enhance web experiences. I am passionate about writing clean, reusable, and scalable code in <span class='underline'>Angular</span> adhering to best practices and modern development standards to deliver high-quality front-end solutions. ",
+  "Banner.ActionBtn": "Say Hi",
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In <span class='underline'>3.3 years of experience</span>  I have taken on various roles, including <span class='underline'>Quality Analyst</span> and <span class='underline'>Frontend Developer</span>, with a strong focus on Angular development. I am passionate about leveraging my expertise to create innovative solutions that address real-world problems.",
+    "My skill set includes implementing system enhancements, optimizing Angular applications, standardizing UI/UX patterns, and proposing and executing ideas that bring tangible value to the projects I contribute to.",
+    "I also program things for my personal use, whether for hobby or utility.",
+    "Some of the technologies I work with include... (Feel free to complete this section with relevant technologies!):"
+  ],
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Oasys",
+      "Title": "Frontend Developer",
+      "Date": "Nov 2021 - Present",
+      "Description": [
+        "Driving technical decisions to ensure efficient frontend development using Angular.",
+        "Contributing to the hiring process for frontend development talent.",
+        "Leading and mentoring a team focused on Angular-based projects.",
+        "Developing and maintaining a responsive and scalable web application for seamless user experience.",
+        "Creating reusable components and custom directives to enhance Angular applications.",
+        "Implementing continuous integration pipelines and ensuring application stability through automated tests and regular updates.",
+        "Collaborating with stakeholders to plan and report on project progress and deliverables."
+      ]
+    }
+  ],
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "UP EXCISE",
+      "Description": "Working on a web application to efficiently suggest and manage the <span class='underline'>UPEX </span> (Integrated Excise Supply Chain Management System - IESCMS for UP) with supply chain management (SCM), which oversees the flow of supplies through all stages of the production cycle.",
+      "imgs": [
+        "assets/images/login.png",
+        "assets/images/indentrequest.png",
+        "assets/images/advancesearch.png",
+        "assets/images/payment.png"
+      ],
+      "Technologies": [
+        "Angular 8",
+        "TypeScript 3.4",
+        "Angular Material",
+        "Bootstrap",
+        "RxJS"
+      ]
+    },
+    {
+      "Title": "POS",
+      "Description": "The <span class='underline'>Point of Sale (POS) </span> system is a comprehensive web-based application designed to streamline and optimize the sales and inventory processes in retail shops. Built using Angular for the frontend, this system provides an intuitive and user-friendly interface that allows shop owners and staff to efficiently manage their daily operations.",
+      "imgs": [
+        "assets/images/loginpos.png",
+        "assets/images/billing.png",
+        "assets/images/billing1.png",
+        "assets/images/cashdeposit.png",
+        "assets/images/billsearch.png"
+      ],
+      "Technologies": [
+        "Angular 18",
+        "Angular Material",
+        "Bootstrap",
+        "TypeScript 5.5",
+        "RxJS"
+      ]
+    }
+  ],
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Say Hi!",
+  "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "Contact.Btn": "Contact Me"
+}
