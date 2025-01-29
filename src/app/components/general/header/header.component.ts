@@ -66,7 +66,7 @@ export class HeaderComponent implements OnInit {
     this.languageService.translateService.get("Header.cvName").subscribe(val => {
       this.cvName = val;
       const baseUrl = window.location.origin;
-      const cvUrl = `${baseUrl}/assets/cv/${this.cvName}`;
+      const cvUrl = `${baseUrl}/assets/${this.cvName}`;
       console.log('baseUrl',baseUrl);
       console.log('cvUrl',cvUrl);
 
