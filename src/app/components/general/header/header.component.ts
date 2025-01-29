@@ -67,6 +67,8 @@ export class HeaderComponent implements OnInit {
       this.cvName = val;
       const baseUrl = window.location.origin;
       const cvUrl = `${baseUrl}/assets/cv/${this.cvName}`;
+      console.log('baseUrl',baseUrl);
+      console.log('cvUrl',cvUrl);
 
       // Dynamically create an anchor element
       const anchor = this.renderer.createElement('a');
